@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>PNP SAF - Fallen 44 List</h1>
+
+<nav>
+  <small style="float:right;">
+    <a href="/list.json" style="border:1px solid red;padding: 5px;display:block;">get json</a>
+  </small
+</nav>
+
+{% for member in site.data.Fallen44%}
+<p>{{ member.rank }}</p>
+<p>{{ member.surname }} {{ member.firstname }}</p>
+<hr>
+{% endfor %}

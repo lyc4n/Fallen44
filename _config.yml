@@ -1,0 +1,12 @@
+# Site settings
+title: Fallen 44
+email: canariasnorly@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a list of the brave men of Philippine Special Action Force who fought and died 
+  for their country last January 25 2015 at Mamasapano, Maguindanao when they battled against the forces of MILF and BIFF.
+  Write an awesome description for your new site here.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
