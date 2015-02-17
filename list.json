@@ -1,5 +1,346 @@
----
-layout:
----
-
-{{ site.data.Fallen44 | jsonify}}
+  [
+    {
+      "id" : 1,
+      "firstname":  "Cyrus",
+      "surname":    "Aniban",
+      "middlename": "Pelayan",
+      "brief_info": "Cyrus had been active with the Philippine National Police since 2006. Originally from Tabuk City in Kalinga, he graduated from the PNPA with a Bachelor of Science in Public Safety. He was 29.",
+      "rank":       "Police Senior Inspector"
+    },
+    {
+      "id" : 2,
+      "firstname":  "John Garry",
+      "surname":    "Erana",
+      "middlename": "Alcantara",
+      "brief_info": "John Garry had been in the service since 2005. He was a BS Criminology graduate from Manuel L. Quezon University. He was originally from Dumalinao, Zamboanga del Sur.",
+      "rank":       "Police Senior Inspector"
+    },
+    {
+      "id" : 3,
+      "firstname":  "Ryan",
+      "surname":    "Pabalinas",
+      "middlename": "Ballesteros",
+      "brief_info": "Ryan had been with the PNP since 2006. Originally from General Santos City, he was a PNPA graduate of BS Public Safety. His wife Erica spoke during the necrological service for the Fallen 44.",
+      "rank":       "Police Senior Inspector"
+    },
+    {
+      "id" : 4,
+      "firstname":  "Gednat",
+      "surname":    "Tabdi",
+      "middlename": "Garambas",
+      "brief_info": "Gednat had been active with the PNP since 2005. Originally from La Trinidad, Benguet, he was a PNPA graduate of BS Public Safety.",
+      "rank":       "Police Senior Inspector"
+    },
+    {
+      "id" : 5,
+      "firstname":  "Max Jim",
+      "surname":    "Tria",
+      "middlename": "Ramirez",
+      "brief_info": "Max Jim had been with the PNP since 2005. Originally from Virac Catanduanes, he was a PNPA graduate of BS Public Safety. According to a report, he was the \"last man standing\" among the Fallen 44.",
+      "rank":       "Police Senior Inspector"
+    },
+    {
+      "id" : 6,
+      "firstname":  "Joey",
+      "surname":    "Gamutan",
+      "middlename": "Sacristan",
+      "brief_info": "Joey, originally from Basilan, was a graduate of BS Criminology from Western Mindanao State University. He had been active with the PNP since 2005.",
+      "rank":       "Police Inspector"
+    },
+    {
+      "id" : 7,
+      "firstname":  "Rennie",
+      "surname":    "Tayrus",
+      "middlename": "Lumasag",
+      "brief_info": "Rennie, had been active with the PNP since 2011. Originally from Zamboanga City, he was a PNPA graduate of BS Public Safety.",
+      "rank":       "Police Inspector"
+    },
+    {
+      "id" : 8,
+      "firstname":  "Lover",
+      "surname":    "Inocencion",
+      "middlename": "Ladao",
+      "brief_info": "Lover was originally from Panabo City, Davao del Norte. A graduate of BS Criminology from Agusan del Sur State College, he had been active with the PNP since 2002. \"Hindi talaga masukat ang pangungulila ko sa anak ko,\" his father told GMA News.",
+      "rank":       "Senior Police Officer 1"
+    },
+    {
+      "id" : 9,
+      "firstname":  "Victoriano",
+      "surname":    "Acain Jr.",
+      "middlename": "Nacion",
+      "brief_info": "Victoriano, had been active with the PNP since 2006. He was a BS Criminology graduate from Andres Bonifacio College and was originally from Zamboanga del Norte.",
+      "rank":       "Senior Police Officer 3"
+    },
+    {
+      "id" : 10,
+      "firstname":  "Rodrigo",
+      "surname":    "Acob Jr.",
+      "middlename": "Fernandez",
+      "brief_info": "Originally from Sampaloc, Manila, Rodrigo was a graduate of BS Criminology from the Philippine College of Criminology. He had been active in the PNP since 2002.",
+      "rank":       "Senior Police Officer 3"
+    },
+    {
+      "id" : 11,
+      "firstname":  "Robert",
+      "surname":    "Allaga",
+      "middlename": "Domollog",
+      "brief_info": "Robert, had been active with the PNP since 2005. The Banaue, Ifugao native graduated from University of Baguio with a BS degree in Criminology.",
+      "rank":       "Senior Police Officer 3"
+    },
+    {
+      "id" : 12,
+      "firstname":  "Andres",
+      "surname":    "Duque Jr.",
+      "middlename": "Viernes",
+      "brief_info": "Andres was originally from Aurora, Isabela. Active with the Philippine National Police since 2006, he was a BS Criminology graduate from University of La Salette.",
+      "rank":       "Senior Police Officer 3"
+    },
+    {
+      "id" : 13,
+      "firstname":  "Noel",
+      "surname":    "Golocan",
+      "middlename": "Onangey",
+      "brief_info": "Noel, had been with the PNP since 2006. He was originally from Baguio City and finished BS Criminology from Baguio Colleges Foundation.",
+      "rank":       "Senior Police Officer 3"
+    },
+    {
+      "id" : 14,
+      "firstname":  "Junrel",
+      "surname":    "Kibete",
+      "middlename": "Narvas",
+      "brief_info": "Originally from San Jose Del Monte, Bulacan, Junrel has been active with the PNP since 2005. He was a graduate of BS Criminology from Central Visayas Polytechnic.",
+      "rank":       "Police Officer 3"
+    },
+    {
+      "id" : 15,
+      "firstname":  "John Lloyd",
+      "surname":    "Sumbilla",
+      "middlename": "Rebamonte",
+      "brief_info": "John Lloyd had been with the PNP since 2006. Originally from Sulat, Eastern Samar, he was a BS Criminology from Luzon Colleges. Last September, he was married to his wife Rochelle, who is five months pregnant.",
+      "rank":       "Police Officer 3"
+    },
+    {
+      "id" : 16,
+      "firstname":  "Virgel",
+      "surname":    "Villanueva",
+      "middlename": "Serion",
+      "brief_info": "Virgel had been with the PNP since 2004. A BS Criminology graduate from Parang Foundation College, he was originally from Zamboanga City.",
+      "rank":       "Police Officer 3"
+    },
+    {
+      "id" : 18,
+      "firstname":  "Jedz-in",
+      "surname":    "Asjali",
+      "middlename": "Abubakar",
+      "brief_info": "One of two Muslim members of the Fallen 44, Jedz-In had been with the PNP since 2002. A graduate of BS Criminology from Western Mindanao University, he was originally from Zamboanga City.",
+      "rank":       "Police Officer 3"
+    },
+    {
+      "id" : 19,
+      "firstname":  "Noel",
+      "surname":    "Balaca Jr.",
+      "middlename": "Nebrida",
+      "brief_info": "Noel had been active with the PNP since 2010. Originally from Taguig, he was a graduate of BS Criminology from the Philippine College of Criminology.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 20,
+      "firstname":  "Richelle",
+      "surname":    "Baluga",
+      "middlename": "Salagan",
+      "brief_info": "Originally from Cagayan Valley, Richelle finished BS Agriculture from Cagayan State University. He had been with the PNP since 2008.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 21,
+      "firstname":  "Glenn",
+      "surname":    "Bedua",
+      "middlename": "Berecio",
+      "brief_info": "Glenn had been active with the PNP since 2006. Originally from Leyte, he graduated from Leyte Colleges Foundation with a degree in BS Criminology.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 22,
+      "firstname":  "Godofredo",
+      "surname":    "Cabanlet",
+      "middlename": "Basalo",
+      "brief_info": "Originally from Lanao Del Norte, Godofredo finished BS Criminology at Misamis University. He had been with the PNP since 2008.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 23,
+      "firstname":  "Peterson",
+      "surname":    "Carap",
+      "middlename": "Indongsan",
+      "brief_info": "Peterson had been with the PNP since 2007. Originally from Benguet, he graduated with a BS Criminology degree from University of the Cordilleras.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 24,
+      "firstname":  "Roger",
+      "surname":    "Cordero",
+      "middlename": "",
+      "brief_info": "A native of Sultan Kudarat, Roger had been with the PNP since 2007. He earned his BS Criminology degree from Sultan Kudarat Poytechnic.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 25,
+      "firstname":  "Franklin",
+      "surname":    "Danao",
+      "middlename": "C",
+      "brief_info": "Franklin was originally from Tinoc, Ifugao",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 26,
+      "firstname":  "Walner",
+      "surname":    "Danao",
+      "middlename": "Faustino",
+      "brief_info": "A graduate of the University of the Cordilleras, Walner  had been in active duty with the PNP since 2008. Danao was originally from Baguio City.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 27,
+      "firstname":  "Joel",
+      "surname":    "Dulnuan",
+      "middlename": "Bumidang",
+      "brief_info": "Joel had been active with the PNP since 2007. He was a BS Criminology graduate from University of the Cordilleras and originally from Nueva Vizcaya.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 28,
+      "firstname":  "Amman",
+      "surname":    "Esmula",
+      "middlename": "Misuari",
+      "brief_info": "Amman, one of the two Muslim men in the Fallen 44, was originally from Zamboanga Sibugay. He had been active with the PNP since 2006. He graduated from Western Mindanao State University.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 29,
+      "firstname":  "Jerry",
+      "surname":    "Kayob",
+      "middlename": "Dailay",
+      "brief_info": "Jerry, was a BS Crimonology graduate from Cordillera Career Devt. College. He was originally from La Trinidad, Benguet and had been active with the PNP since 2008.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 30,
+      "firstname":  "Noble",
+      "surname":    "Kiangan",
+      "middlename": "Sungay",
+      "brief_info": "Noble graduated from Mt. Province State Polytechnic College under the BS Commerce course. He was active with the PNP since 2008 and was originally from Mankayan, Benguet.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 31,
+      "firstname":  "Omar",
+      "surname":    "Nacionales",
+      "middlename": "Agacer",
+      "brief_info": "Omar had been active with the PNP since 2008. He was originally from Ilocos Norte and was a BS Financial Management graduate from University of Cordillera.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 32,
+      "firstname":  "Nicky",
+      "surname":    "Nacino",
+      "middlename": "De Castro",
+      "brief_info": "Nicky was originally from San Luis, Aurora. He graduated from Mount Carmel College. He had been active with the Philippine National Police since 2009.",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 33,
+      "firstname":  "Rodel",
+      "surname":    "Ramacula",
+      "middlename": "Eva",
+      "brief_info": "",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 34,
+      "firstname":  "Romeo",
+      "surname":    "Senin II",
+      "middlename": "Valles",
+      "brief_info": "",
+      "rank":       "Police Officer 2"
+    },
+    {
+      "id" : 35,
+      "firstname":  "Russel",
+      "surname":    "Bilog",
+      "middlename": "Bawaan",
+      "brief_info": "Originally from Tabuk City, Kalinga, Russel had been with the PNP since 2011. He earned his BS Criminology degree from University of the Cordilleras.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 36,
+      "firstname":  "Windel",
+      "surname":    "Candano",
+      "middlename": "Llano",
+      "brief_info": "A BS ECE graduate from College of Technological Sciences Cebu, Windel had been with the PNP since 2010. He is a native of Dumanjug, Cebu.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 37,
+      "firstname":  "Loreto",
+      "surname":    "Capinding II",
+      "middlename": "Guiyab",
+      "brief_info": "Loreto had been with the service since 2011. A native of San Mateo, Isabela, he earned his BS Criminology degree from North Eastern College.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 38,
+      "firstname":  "Gringo",
+      "surname":    "Cayang-o",
+      "middlename": "Charag",
+      "brief_info": "Originally from Sadanga, Mountain Province, he earned his BS Criminology degree from Mountain Province State Polytechnic College. He had been active with the PNP since 2011.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 39,
+      "firstname":  "Romeo",
+      "surname":    "Cempron",
+      "middlename": "Cumanoy",
+      "brief_info": "Romeo was a University of Cebu graduate of BS Criminology. Originally from Parañaque, he had been with the PNP since 2008.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 40,
+      "firstname":  "Mark Lorry",
+      "surname":    "Clemencio",
+      "middlename": "Orioque",
+      "brief_info": "Originally from Leyte, Mark finished with a degree in BS Civil Engineering from Adamson University. He had been active with the PNP since 2010.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 41,
+      "firstname":  "Angel",
+      "surname":    "Kodiamat",
+      "middlename": "Chocowen",
+      "brief_info": "Angel had been with the PNP since 2010. Originally from Bontoc, Mt. Province, he earned his BS Criminology degree from Mountain Province State Polytechnic College.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 42,
+      "firstname":  "Joseph",
+      "surname":    "Sagonoy",
+      "middlename": "Gumatay",
+      "brief_info": "Joseph was the youngest member of the Fallen 44 at 26. A BS Criminology graduate from University of Eastern Philippines, the Northern Samar native has been with the PNP since 2011.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 43,
+      "firstname":  "Oliebeth",
+      "surname":    "Viernes",
+      "middlename": "Ligutan",
+      "brief_info": "Originally from Tuguegarao City, Oliebeth had been in service since 2007. He graduated BS Criminology from Cagayan College.",
+      "rank":       "Police Officer 1"
+    },
+    {
+      "id" : 44,
+      "firstname":  "Emphraim",
+      "surname":    "Mejia",
+      "middlename": "Garcia",
+      "brief_info": "Ephrain had been active with the PNP in 2008. A native of San Nicolas, Pangasinan, he finished his BS Criminology course at Pangasinan Colleges of Science and Technology.",
+      "rank":       "Police Officer 2"
+    }
+  ]
